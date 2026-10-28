@@ -1,14 +1,20 @@
-reports\trivy-after.txt:36:Total: 164 (UNKNOWN: 1, LOW: 61, MEDIUM: 58, HIGH: 44, CRITICAL: 0)
-reports\trivy-after.txt:675:Total: 8 (UNKNOWN: 0, LOW: 1, MEDIUM: 2, HIGH: 5, CRITICAL: 0)
-1.0.0: digest: sha256:1d48824361c1295546c3aa97ab18a54eb23c45896bbe9468436509ea4ed65cd0 size: 856
+# FestPass Docker Assessment
 
+1. **Name:** Priyanshi Vishwakarma
+   **REGNO:** 202401100100193
+   **PORT:** 8093
+   **Docker Hub username:** priyanshivishwakarma
+   **Docker Hub repo:** https://hub.docker.com/r/priyanshivishwakarma/fest-backend
 
-1.0: digest: sha256:1d48824361c1295546c3aa97ab18a54eb23c45896bbe9468436509ea4ed65cd0 size: 856
-ENV PYTHON_SHA256=abb0102e6d4ae027509bcb82327d9dd85515b44a3ba8ad538cfc5e9847029f68
+2. **AI tools used:** Claude, for explaining the steps and commands and helping me debug errors. I ran every command and took every screenshot myself.
 
+3. **Digest of 1.0.0:** sha256:1d48824361c1295546c3aa97ab18a54eb23c45896bbe9468436509ea4ed65cd0
 
-ENV PYTHON_SHA256=abb0102e6d4ae027509bcb82327d9dd85515b44a3ba8ad538cfc5e9847029f68
+4. **Vulnerability table**
 
+| Image | CRITICAL | HIGH | Size |
+|---|---|---|---|
+| fest-backend:0.1 | 234 | 2249 | 412MB |
+| fest-backend:0.2 | ? | ? | 49.2MB |
 
-//stage 5
-sha256:1d48824361c1295546c3aa97ab18a54eb23c45896bbe9468436509ea4ed65cd0
+5. **Steps not completed:** None
